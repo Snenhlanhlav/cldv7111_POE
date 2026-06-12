@@ -1,10 +1,3 @@
--- ============================================================
---  EventEase Venue Booking System — Database Script
---  Compatible with: Azure SQL Database / SQL Server 2019+
--- ============================================================
-
-USE master;
-GO
 
 -- Create database (skip if already exists / using Azure SQL)
 IF NOT EXISTS (SELECT name FROM sys.databases WHERE name = N'EventEaseDb')
